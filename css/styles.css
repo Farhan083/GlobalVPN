@@ -49,19 +49,22 @@ p {
 
 /* Title section */
 
+/* if size is less than 1000px */
+
 #title {
   /* background-color: #222831; */
   color: white;
   /* height: 100vh; */
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-image: url("../images/background-img.jpg");
   background-size: cover;
 }
+/* -------- */
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -197,5 +200,22 @@ p {
 
   .big-heading {
     text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  #title {
+    /* background-color: #222831; */
+    color: white;
+    /* height: 100vh; */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url("../images/background-img.jpg");
+    background-size: cover;
   }
 }
