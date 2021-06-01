@@ -101,6 +101,7 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+
 /* Features section */
 
 .features-box {
@@ -183,14 +184,22 @@ p {
 }
 
 /* CTA */
-/* #cta {
-  background-color: #ff4c68;
-  color: white;
-} */
+#cta{
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url("../images/network-img.jpg"); */
+  background-image: url("../images/network-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Footer */
 .social-icons {
   margin: 20px 10px;
+  color: black;
 }
+
+.social-icons:hover {
+  color: #00adb5;
+}
+
 
 #footer .container-fluid {
   padding: 4% 15%;
